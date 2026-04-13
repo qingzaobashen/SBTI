@@ -1,7 +1,6 @@
 import { calcDimensionScores, scoresToLevels, determineResult } from './engine.js'
 import { createQuiz } from './quiz.js'
 import { renderResult } from './result.js'
-import './style.css'
 
 async function loadJSON(path) {
   const res = await fetch(path)
