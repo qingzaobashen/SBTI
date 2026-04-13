@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <!-- 猫耳头饰 -->
+  <polygon points="10,55 15,15 35,40" fill="#ffb6c1" stroke="#ff69b4" stroke-width="2"/>
+  <polygon points="50,55 45,15 25,40" fill="#ffb6c1" stroke="#ff69b4" stroke-width="2"/>
+  <polygon points="15,45 18,25 30,38" fill="#ff69b4" opacity="0.3"/>
+  <polygon points="45,45 42,25 30,38" fill="#ff69b4" opacity="0.3"/>
+</svg>

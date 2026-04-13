@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SBTI 人格卡工坊</title>
+  <meta name="description" content="创建你的专属人格卡" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>" />
+  <link rel="stylesheet" href="/src/style.css" />
+  <link rel="stylesheet" href="/src/style-workshop.css" />
+</head>
+<body>
+  <div id="app" class="workshop-app">
+    <!-- 顶部导航 -->
+    <header class="workshop-header">
+      <a href="index.html" class="back-link">← 返回测试结果</a>
+      <h1 class="workshop-title">SBTI 人格卡工坊</h1>
+    </header>
+
+    <!-- 主要编辑区域 -->
+    <main class="workshop-main">
+      <!-- 左侧：形象编辑 -->
+      <section class="editor-section avatar-editor">
+        <h2 class="section-title">形象编辑</h2>
+        
+        <!-- 形象预览 -->
+        <div class="avatar-preview">
+          <canvas id="avatar-canvas" width="200" height="300"></canvas>
+        </div>
+
+        <!-- 身子模板选择 -->
+        <div class="component-selector">
+          <h3 class="selector-title">选择身子模板</h3>
+          <div class="selector-options" id="body-selector"></div>
+        </div>
+
+        <!-- 头饰选择 -->
+        <div class="component-selector">
+          <h3 class="selector-title">选择头饰</h3>
+          <div class="selector-options" id="head-selector"></div>
+        </div>
+
+        <!-- 手饰选择 -->
+        <div class="component-selector">
+          <h3 class="selector-title">选择手饰</h3>
+          <div class="selector-options" id="hand-selector"></div>
+        </div>
+      </section>
+
+      <!-- 右侧：文本编辑 -->
+      <section class="editor-section text-editor">
+        <h2 class="section-title">文本编辑</h2>
+        
+        <div class="text-field">
+          <label for="input-code">类型代码</label>
+          <input type="text" id="input-code" maxlength="10" placeholder="如：CTRL" />
+        </div>
+
+        <div class="text-field">
+          <label for="input-name">类型名称</label>
+          <input type="text" id="input-name" maxlength="20" placeholder="如：拿捏者" />
+        </div>
+
+        <div class="text-field">
+          <label for="input-intro">一句话简介</label>
+          <input type="text" id="input-intro" maxlength="50" placeholder="怎么样，被我拿捏了吧？" />
+        </div>
+
+        <div class="text-field">
+          <label for="input-desc">详细描述</label>
+          <textarea id="input-desc" maxlength="500" rows="6" placeholder="恭喜您，您测出了..."></textarea>
+        </div>
+
+        <div class="test-info">
+          <p class="info-label">原始测试结果</p>
+          <p class="info-text" id="test-match-info"></p>
+        </div>
+      </section>
+    </main>
+
+    <!-- 预览卡片 -->
+    <section class="preview-section">
+      <h2 class="section-title">实时预览</h2>
+      <div class="card-preview-container">
+        <canvas id="card-preview-canvas" width="800" height="1200"></canvas>
+      </div>
+    </section>
+
+    <!-- 操作按钮 -->
+    <footer class="workshop-footer">
+      <button id="btn-save" class="btn btn-secondary">保存到本地</button>
+      <button id="btn-export" class="btn btn-primary">导出图片</button>
+      <a href="index.html" class="btn btn-outline">重新测试</a>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/workshop.js"></script>
+</body>
+</html>

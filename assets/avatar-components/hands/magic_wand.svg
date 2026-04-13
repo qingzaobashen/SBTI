@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <!-- 魔法棒手饰 -->
+  <rect x="22" y="5" width="6" height="40" fill="#4a4a4a"/>
+  <polygon points="25,0 20,15 30,15" fill="#ffd700"/>
+  <circle cx="25" cy="10" r="3" fill="#fff"/>
+  <circle cx="18" cy="8" r="2" fill="#ff69b4"/>
+  <circle cx="32" cy="8" r="2" fill="#4ecdc4"/>
+  <circle cx="15" cy="15" r="1.5" fill="#ffd700"/>
+  <circle cx="35" cy="15" r="1.5" fill="#ffd700"/>
+</svg>

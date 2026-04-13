@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="200" height="300">
+  <!-- 可爱风格模板 - 占位符 -->
+  <rect width="200" height="300" fill="#fff8f8"/>
+  <ellipse cx="100" cy="45" rx="40" ry="45" fill="#f0d4d4"/>
+  <rect x="60" y="90" width="80" height="130" rx="20" fill="#f8e0e0"/>
+  <rect x="55" y="220" width="40" height="60" rx="15" fill="#f0d4d4"/>
+  <rect x="105" y="220" width="40" height="60" rx="15" fill="#f0d4d4"/>
+  <text x="100" y="280" text-anchor="middle" font-size="10" fill="#d48a8a">可爱风格</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <!-- 花朵头饰 -->
+  <circle cx="30" cy="30" r="12" fill="#ff69b4"/>
+  <circle cx="18" cy="22" r="10" fill="#ff1493"/>
+  <circle cx="42" cy="22" r="10" fill="#ff1493"/>
+  <circle cx="18" cy="38" r="10" fill="#ff1493"/>
+  <circle cx="42" cy="38" r="10" fill="#ff1493"/>
+  <circle cx="30" cy="30" r="6" fill="#ffd700"/>
+</svg>

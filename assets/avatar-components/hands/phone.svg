@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <!-- 手机手饰 -->
+  <rect x="12" y="5" width="26" height="45" rx="4" fill="#2c3e50"/>
+  <rect x="14" y="10" width="22" height="35" fill="#3498db"/>
+  <circle cx="25" cy="47" r="2" fill="#555"/>
+  <rect x="20" y="7" width="10" height="2" fill="#555"/>
+</svg>

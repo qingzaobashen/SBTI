@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="200" height="300">
+  <!-- 标准站姿模板 - 占位符 -->
+  <rect width="200" height="300" fill="#f8faf8"/>
+  <ellipse cx="100" cy="50" rx="35" ry="40" fill="#d4dcd5"/>
+  <rect x="70" y="90" width="60" height="120" rx="10" fill="#c8d4cc"/>
+  <rect x="70" y="210" width="28" height="70" rx="8" fill="#b8c8bc"/>
+  <rect x="102" y="210" width="28" height="70" rx="8" fill="#b8c8bc"/>
+  <text x="100" y="280" text-anchor="middle" font-size="10" fill="#6b7b6e">标准站姿</text>
+</svg>

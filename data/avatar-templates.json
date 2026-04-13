@@ -1,0 +1,130 @@
+{
+  "templates": [
+    {
+      "id": "body_01",
+      "name": "标准站姿",
+      "image": "assets/avatar-components/bodies/body_01.svg",
+      "headSlot": { "x": 100, "y": 20 },
+      "handSlot": { "x": 150, "y": 180 }
+    },
+    {
+      "id": "body_02",
+      "name": "休闲姿态",
+      "image": "assets/avatar-components/bodies/body_02.svg",
+      "headSlot": { "x": 100, "y": 25 },
+      "handSlot": { "x": 160, "y": 190 }
+    },
+    {
+      "id": "body_03",
+      "name": "可爱风格",
+      "image": "assets/avatar-components/bodies/body_03.svg",
+      "headSlot": { "x": 100, "y": 15 },
+      "handSlot": { "x": 155, "y": 175 }
+    },
+    {
+      "id": "body_04",
+      "name": "酷炫风格",
+      "image": "assets/avatar-components/bodies/body_04.svg",
+      "headSlot": { "x": 100, "y": 22 },
+      "handSlot": { "x": 145, "y": 185 }
+    },
+    {
+      "id": "body_05",
+      "name": "正式风格",
+      "image": "assets/avatar-components/bodies/body_05.svg",
+      "headSlot": { "x": 100, "y": 18 },
+      "handSlot": { "x": 150, "y": 180 }
+    }
+  ],
+  "components": {
+    "heads": [
+      {
+        "id": "head_none",
+        "name": "无头饰",
+        "image": null
+      },
+      {
+        "id": "head_crown",
+        "name": "皇冠",
+        "image": "assets/avatar-components/heads/crown.svg"
+      },
+      {
+        "id": "head_cat_ear",
+        "name": "猫耳",
+        "image": "assets/avatar-components/heads/cat_ear.svg"
+      },
+      {
+        "id": "head_rabbit_ear",
+        "name": "兔耳",
+        "image": "assets/avatar-components/heads/rabbit_ear.svg"
+      },
+      {
+        "id": "head_halo",
+        "name": "光环",
+        "image": "assets/avatar-components/heads/halo.svg"
+      },
+      {
+        "id": "head_devil_horn",
+        "name": "恶魔角",
+        "image": "assets/avatar-components/heads/devil_horn.svg"
+      },
+      {
+        "id": "head_flower",
+        "name": "花朵",
+        "image": "assets/avatar-components/heads/flower.svg"
+      },
+      {
+        "id": "head_hat_cap",
+        "name": "鸭舌帽",
+        "image": "assets/avatar-components/heads/hat_cap.svg"
+      },
+      {
+        "id": "head_hat_wizard",
+        "name": "巫师帽",
+        "image": "assets/avatar-components/heads/hat_wizard.svg"
+      }
+    ],
+    "hands": [
+      {
+        "id": "hand_none",
+        "name": "无手饰",
+        "image": null
+      },
+      {
+        "id": "hand_cup",
+        "name": "咖啡杯",
+        "image": "assets/avatar-components/hands/cup.svg"
+      },
+      {
+        "id": "hand_book",
+        "name": "书本",
+        "image": "assets/avatar-components/hands/book.svg"
+      },
+      {
+        "id": "hand_magic_wand",
+        "name": "魔法棒",
+        "image": "assets/avatar-components/hands/magic_wand.svg"
+      },
+      {
+        "id": "hand_phone",
+        "name": "手机",
+        "image": "assets/avatar-components/hands/phone.svg"
+      },
+      {
+        "id": "hand_guitar",
+        "name": "吉他",
+        "image": "assets/avatar-components/hands/guitar.svg"
+      },
+      {
+        "id": "hand_heart",
+        "name": "比心",
+        "image": "assets/avatar-components/hands/heart.svg"
+      },
+      {
+        "id": "hand_sword",
+        "name": "宝剑",
+        "image": "assets/avatar-components/hands/sword.svg"
+      }
+    ]
+  }
+}

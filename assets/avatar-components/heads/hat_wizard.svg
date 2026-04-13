@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <!-- 巫师帽头饰 -->
+  <polygon points="30,5 5,55 55,55" fill="#2c3e50"/>
+  <polygon points="30,5 15,40 45,40" fill="#34495e"/>
+  <ellipse cx="30" cy="55" rx="25" ry="5" fill="#1a252f"/>
+  <circle cx="25" cy="25" r="3" fill="#ffd700"/>
+  <circle cx="35" cy="30" r="2" fill="#ffd700"/>
+  <circle cx="28" cy="35" r="2" fill="#ffd700"/>
+</svg>

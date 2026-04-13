@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="200" height="300">
+  <!-- 休闲姿态模板 - 占位符 -->
+  <rect width="200" height="300" fill="#f8faf8"/>
+  <ellipse cx="100" cy="55" rx="35" ry="40" fill="#d4dcd5"/>
+  <rect x="65" y="95" width="70" height="110" rx="12" fill="#c8d4cc"/>
+  <rect x="55" y="205" width="35" height="75" rx="8" fill="#b8c8bc" transform="rotate(-10 72 242)"/>
+  <rect x="110" y="205" width="35" height="75" rx="8" fill="#b8c8bc" transform="rotate(10 127 242)"/>
+  <text x="100" y="280" text-anchor="middle" font-size="10" fill="#6b7b6e">休闲姿态</text>
+</svg>

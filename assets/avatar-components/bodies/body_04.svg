@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="200" height="300">
+  <!-- 酷炫风格模板 - 占位符 -->
+  <rect width="200" height="300" fill="#f8f8fc"/>
+  <ellipse cx="100" cy="50" rx="35" ry="38" fill="#c8c8d8"/>
+  <rect x="65" y="88" width="70" height="125" rx="8" fill="#d8d8e8"/>
+  <rect x="60" y="213" width="35" height="67" rx="6" fill="#c8c8d8"/>
+  <rect x="105" y="213" width="35" height="67" rx="6" fill="#c8c8d8"/>
+  <text x="100" y="280" text-anchor="middle" font-size="10" fill="#8888a8">酷炫风格</text>
+</svg>

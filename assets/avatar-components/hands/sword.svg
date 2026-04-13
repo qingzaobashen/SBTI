@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <!-- 宝剑手饰 -->
+  <rect x="23" y="5" width="4" height="35" fill="#c0c0c0"/>
+  <polygon points="25,0 22,8 28,8" fill="#c0c0c0"/>
+  <rect x="18" y="38" width="14" height="4" fill="#8b4513"/>
+  <rect x="15" y="40" width="20" height="6" rx="2" fill="#8b4513"/>
+  <circle cx="25" cy="43" r="2" fill="#ffd700"/>
+</svg>

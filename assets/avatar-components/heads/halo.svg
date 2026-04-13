@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <!-- 光环头饰 -->
+  <ellipse cx="30" cy="20" rx="25" ry="8" fill="none" stroke="#ffd700" stroke-width="4"/>
+  <ellipse cx="30" cy="20" rx="25" ry="8" fill="none" stroke="#fff8dc" stroke-width="2"/>
+  <ellipse cx="30" cy="55" rx="5" ry="3" fill="#ffd700" opacity="0.3"/>
+</svg>
