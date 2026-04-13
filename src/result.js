@@ -1,5 +1,6 @@
 import { drawRadar } from './chart.js'
 import { generateShareImage } from './share.js'
+import { getPersonalityImageUrl, hasPersonalityImage } from '../data/images.js'
 
 const LEVEL_LABEL = { L: '低', M: '中', H: '高' }
 const LEVEL_CLASS = { L: 'level-low', M: 'level-mid', H: 'level-high' }
@@ -23,6 +24,16 @@ export function renderResult(result, userLevels, dimOrder, dimDefs, config) {
   // 匹配度
   document.getElementById('result-badge').textContent =
     `匹配度 ${primary.similarity}%` + (primary.exact != null ? ` · 精准命中 ${primary.exact}/15 维` : '')
+
+  // 人格形象图片
+  const imageContainer = document.getElementById('result-image-container')
+  const imageEl = document.getElementById('result-image')
+  if (hasPersonalityImage(primary.code)) {
+    imageEl.src = getPersonalityImageUrl(primary.code)
+    imageContainer.classList.add('visible')
+  } else {
+    imageContainer.classList.remove('visible')
+  }
 
   // Intro & 描述
   document.getElementById('result-intro').textContent = primary.intro || ''

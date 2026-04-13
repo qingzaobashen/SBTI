@@ -246,6 +246,23 @@ body {
   margin-bottom: 20px;
 }
 
+.result-image-container {
+  margin-bottom: 20px;
+  display: none;
+}
+
+.result-image-container.visible {
+  display: block;
+}
+
+.result-image {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
 .result-intro {
   font-size: 1rem;
   color: var(--text);
